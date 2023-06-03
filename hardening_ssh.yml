@@ -4,8 +4,12 @@
 
   collections: 
    - devsec.hardening
-  roles:
-   - ssh_hardening
+   
+  tasks:
+    - import_role:
+        name: ssh_hardening
+  
 #  vars:
 #   - ssh_server_ports: 
 #      - 7777
+
