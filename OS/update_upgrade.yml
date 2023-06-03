@@ -1,6 +1,6 @@
 ---
 - hosts: all
-  remote_user: juan
+#  remote_user: juan
   become: true
 
   tasks:
